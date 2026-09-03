@@ -25,33 +25,42 @@
 
 #String
 
-a=True
-b=str(a)
+# a=True
+# b=str(a)
+# print(b)
+
+# # o/p True
+
+
+# #int
+
+# a=True
+# b=int(a)
+# print(b)
+
+# # o/p 1
+
+# #float
+
+# a=True
+# b=float(a)
+# print(b)
+
+# # o/p 1.0
+
+# #bool   
+
+# a=True
+# b=bool(a)
+# print(b)
+
+# # o/p True
+
+a = True
+
+b = str(a)
+
 print(b)
+c=int(b)
 
-# o/p True
-
-
-#int
-
-a=True
-b=int(a)
-print(b)
-
-# o/p 1
-
-#float
-
-a=True
-b=float(a)
-print(b)
-
-# o/p 1.0
-
-#bool
-
-a=True
-b=bool(a)
-print(b)
-
-# o/p True
+print(c)
