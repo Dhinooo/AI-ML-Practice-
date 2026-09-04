@@ -1,8 +1,22 @@
 greetings = "HI, my name is Dhina "
 
 ans = len(greetings)
-
 # print(ans)
+
+
+
+
+
+#------------------- Index Concepts --------------------------
+indx = greetings[0]
+
+print(greetings[1])
+# print(indx)
+
+print(greetings[1:6])
+
+
+
 
 # -------- Case Comversion ----------------
 
@@ -31,7 +45,7 @@ title_case = greetings.title()
 
 swap_case = greetings.swapcase()
 
-print(swap_case)
+# print(swap_case)
 
 
 # --------------------- Searching ----------------------------------
