@@ -10,10 +10,10 @@ ans = len(greetings)
 #------------------- Index Concepts --------------------------
 indx = greetings[0]
 
-print(greetings[1])
+# print(greetings[1])
 # print(indx)
 
-print(greetings[1:6])
+# print(greetings[1:6])
 
 
 
@@ -50,7 +50,17 @@ swap_case = greetings.swapcase()
 
 # --------------------- Searching ----------------------------------
 
+find_index = greetings.find("Dhina")
+print(find_index)
 
+# start_with 
 
+python_index = greetings.startswith("HI")
 
+print(python_index)
 
+# replace
+
+replace_with = greetings.replace("is","great")
+
+print(replace_with)
