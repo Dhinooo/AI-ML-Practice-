@@ -51,16 +51,47 @@ swap_case = greetings.swapcase()
 # --------------------- Searching ----------------------------------
 
 find_index = greetings.find("Dhina")
-print(find_index)
+# print(find_index)
 
 # start_with 
 
 python_index = greetings.startswith("HI")
 
-print(python_index)
+# print(python_index)
 
 # replace
 
 replace_with = greetings.replace("is","great")
 
-print(replace_with)
+# print(replace_with)
+
+# ------------------  Strip ------------------
+
+dummy_strip = "               I am a dhina karan welcome to my python learning       "
+
+# print(dummy_strip.strip())
+
+dummy_strip = "I am a dhina karan welcome to my python learning       "
+
+# print(dummy_strip.rstrip())
+
+
+dummy_strip = "            I am a dhina karan welcome to my python learning"
+# print(dummy_strip.lstrip())
+
+
+# -------isdigit ---- isalpha---------
+
+digi_fun ="123one"
+
+# print(digi_fun.isdigit())
+
+alpha_fun = "dhina123"
+
+# print(alpha_fun.isalpha())
+
+# print(digi_fun.isalnum())
+
+desi_fun = 12.32
+# print(desi_fun.isdecimal())
+print(desi_fun.isnumeric())
