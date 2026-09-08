@@ -94,4 +94,10 @@ alpha_fun = "dhina123"
 
 desi_fun = 12.32
 # print(desi_fun.isdecimal())
-print(desi_fun.isnumeric())
+# print(desi_fun.isnumeric())
+
+
+ex_str = "i am also developer why this is dought "
+
+# print(dummy_str[::-1])
+
