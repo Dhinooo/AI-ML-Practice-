@@ -35,5 +35,22 @@ b = 5
 age = 40
 
 print(age > 18 and age < 30)  # TRUE + TRUE = TRUE
-print(age > 20 or age < 25)  #TRUE + FALSE = TRUE
-# print(age > 10 not age < 20)  
+print(age > 20 or age < 25)  # TRUE + FALSE  = TRUE
+print(not age > 20 ) #TRUE =/= FALSE
+
+
+a = 5 + 5
+# print(a)
+
+b = "Dhina" + "karan"
+
+# print(b)
+
+c = [
+    1,
+    3,
+    5,
+]
+d = [6, 7, 7]
+e = c + d
+# print(e)
