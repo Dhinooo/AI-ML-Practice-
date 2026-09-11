@@ -36,7 +36,7 @@ age = 40
 
 print(age > 18 and age < 30)  # TRUE + TRUE = TRUE
 print(age > 20 or age < 25)  # TRUE + FALSE  = TRUE
-print(not age > 20 ) #TRUE =/= FALSE
+print(not age > 20)  # TRUE =/= FALSE
 
 
 a = 5 + 5
