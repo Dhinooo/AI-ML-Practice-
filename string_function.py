@@ -1,8 +1,12 @@
-greetings = "HI, my name is Dhina "
+greetings = "Hi, my name is Dhina "
 
 ans = len(greetings)
 # print(ans)
 
+# _____________________Replace-----------------
+
+ans1 = greetings.replace("Hi","Hello")
+print(ans1)
 
 
 
@@ -63,7 +67,7 @@ python_index = greetings.startswith("HI")
 
 replace_with = greetings.replace("is","great")
 
-# print(replace_with)
+print(replace_with)
 
 # ------------------  Strip ------------------
 
