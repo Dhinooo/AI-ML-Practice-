@@ -1,14 +1,18 @@
-color = ("Red","Blue","Yellow")
+color = ("Red", "Blue", "Yellow")
 
 # print(len(color))
 
 # print(color.index("Yellow"))
 
-num = (1,2,3,4)
+num = (1, 2, 3, 4)
 
 # print(num.min(num))
 
-# val = num.min()
-# print(val)
 
-print(color.count("Blue"))
+# Find the min value in TUPLE ----------
+
+print(min(num))
+print(max(num))
+print(num.index(2))
+
+# print(color.count("Blue"))
