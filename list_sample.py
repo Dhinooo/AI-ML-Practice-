@@ -4,7 +4,7 @@
 
 # print(len(sample))
 
-fruits = ["Apple","Mango","Banana"]
+fruits = ["Apple", "Mango", "Banana", ["Apple", "Mango", "Banana"]]
 
 # print(fruits)
 
@@ -12,7 +12,7 @@ fruits = ["Apple","Mango","Banana"]
 
 # fruits.append("papaya")
 
-# print(fruits)
+print(fruits)
 
 
 fruits_01 = fruits.copy()
@@ -40,8 +40,8 @@ fruits_01 = fruits.copy()
 
 fruits.clear()
 
-# fruits.append("Apple","Banana","Mango","Papaya") 
+# fruits.append("Apple","Banana","Mango","Papaya")
 # fruits.insert("Apple","Banana","Mango","Papaya")
-fruits.insert(1,"Apple")
+fruits.insert(1, "Apple")
 
-print(fruits)
+# print(fruits)

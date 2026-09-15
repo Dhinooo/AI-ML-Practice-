@@ -5,21 +5,23 @@ ans = len(greetings)
 
 # _____________________Replace-----------------
 
-ans1 = greetings.replace("Hi","Hello")
-print(ans1)
+# ans1 = greetings.replace("Hi", "Hello")
+# print(ans1)
+# -----------------String is immutable -----------------------
+
+str_ind = greetings[1] = "I"
 
 
+# print(str_ind)
 
 
-#------------------- Index Concepts --------------------------
-indx = greetings[0]
+# ------------------- Index Concepts --------------------------
+index = greetings[0]
 
-# print(greetings[1])
-# print(indx)
+print(greetings[1])
+print(index)
 
-# print(greetings[1:6])
-
-
+print(greetings[1:6])
 
 
 # -------- Case Comversion ----------------
@@ -35,8 +37,8 @@ lower_case = greetings.lower()
 capitalize_case = greetings.capitalize()
 
 # print(capitalize_case)
- 
-casefold_case = greetings.casefold()  #Similer to lowercase  
+
+casefold_case = greetings.casefold()  # Similer to lowercase
 
 # print(casefold_case)
 
@@ -57,7 +59,7 @@ swap_case = greetings.swapcase()
 find_index = greetings.find("Dhina")
 # print(find_index)
 
-# start_with 
+# start_with
 
 python_index = greetings.startswith("HI")
 
@@ -65,7 +67,7 @@ python_index = greetings.startswith("HI")
 
 # replace
 
-replace_with = greetings.replace("is","great")
+replace_with = greetings.replace("is", "great")
 
 print(replace_with)
 
@@ -86,7 +88,7 @@ dummy_strip = "            I am a dhina karan welcome to my python learning"
 
 # -------isdigit ---- isalpha---------
 
-digi_fun ="123one"
+digi_fun = "123one"
 
 # print(digi_fun.isdigit())
 
@@ -104,4 +106,3 @@ desi_fun = 12.32
 ex_str = "i am also developer why this is dought "
 
 # print(dummy_str[::-1])
-
