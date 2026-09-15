@@ -32,9 +32,18 @@ students = {
 # for key,value in students.items():
 #     print("The key is :",key, "....","The value is :",value)
 
+# ----------------------------FOR LOOP-------------------------------------------
 
-for key in students.keys():
-    print("The key is :",key)
+# for key in students.keys():
+#     print("The key is :", key)
 
 # for value in students.values():
 #     print("The value is :",value)
+# -------------------------------------------------------------------------------
+
+i = 1
+
+while i < 10:
+    print("The Value Of I is :", i)
+    # i+=1
+    i += 1
