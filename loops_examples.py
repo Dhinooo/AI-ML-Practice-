@@ -41,9 +41,32 @@ students = {
 #     print("The value is :",value)
 # -------------------------------------------------------------------------------
 
-i = 1
+# i = 1
+
+# while i < 10:
+#     print("The Value Of I is :", i) # While loop execute until the condition are met (True)
+#     # i+=1
+#     i += 1
+
+# --------------------------------------------------------------------------------
+
+
+i = 0
 
 while i < 10:
-    print("The Value Of I is :", i)
-    # i+=1
+    print("The value is :", i)
+
+    if i == 8:
+        break
     i += 1
+# --------------------------------------------------------------------------------
+
+
+i = 0
+
+while i < 5:
+    i += 1
+    if i == 3:
+        continue
+
+    print("value :", i)

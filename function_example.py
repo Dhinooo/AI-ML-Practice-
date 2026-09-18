@@ -8,8 +8,8 @@
 # print("Hello Raju")
 
 
-def greet(name):
-    print(f"Hello {name}")
+# def greet(name):
+#     print(f"Hello {name}")
 
 
 # greet("Ravi")
@@ -31,18 +31,53 @@ def greet(name):
 # Function With Parameters
 
 
-def add(a, b):
-    return a + b
+# def add(a, b):
+#     return a + b
 
 
-ans = add(5, 7)
+# ans = add(5, 7)
 # print(ans)
 
 # Function Without Parameters
 
 
-def sample():
-    print("This function is without parameters -")
+# def sample():
+#     print("This function is without parameters -")
 
 
-sample()
+# sample()
+
+
+# ---------------Lambda Function -----------
+# Its a small Function it is usually used for simpler operation---------------
+
+
+# Addition
+
+# add = lambda a, b: a + b
+# print(add(3, 2))
+
+# Square
+
+# square = lambda a, b: a * b
+# print(square(2,5))
+
+
+# square = lambda x: x * x
+# print(square(5))
+
+# GLOBAL VARIABLE AND LOCAL VARIABLE
+
+# GLOBAL SCOPE AND LOCAL SCOPE
+
+i = 10
+
+
+def value():
+
+    print("This is local variable value is : ", i)  # This is local scope
+
+
+value()
+
+print("This is Global Variable value is : ", i)  # This is Global Scope
