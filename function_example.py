@@ -70,14 +70,22 @@
 
 # GLOBAL SCOPE AND LOCAL SCOPE
 
-i = 10
+# i = 10
 
 
 def value():
+    i = 10
 
     print("This is local variable value is : ", i)  # This is local scope
 
 
-value()
+try:
+    value()
+except NameError:
+    print("This is Global Variable value is : ", i)  # This is Global Scope
 
-print("This is Global Variable value is : ", i)  # This is Global Scope
+finally:
+
+    print(
+        "YOU CAN'T PRINT A I VALUE BECAUSE ITS RUN ONLY LOCAL SCOPE ITS DEFINE INSIDE THE FUNTION "
+    )
