@@ -190,3 +190,31 @@ total = 100
 accuracy = (correct / total) * 100
 
 print(accuracy)
+
+accuracy = 95
+
+if accuracy >= 80:
+    print("Good")
+elif accuracy >= 90:
+    print("Excellent")
+else:
+    print("Needs improvement")
+
+accuracy = 92
+
+if accuracy >= 90:
+    print("Excellent")
+elif accuracy >= 80:
+    print("Good")
+elif accuracy >= 70:
+    print("Average")
+else:
+    print("Poor")
+
+accuracy = 65
+model_deployed = True
+
+if accuracy >= 80 or model_deployed:
+    print("Continue")
+else:
+    print("Stop")
