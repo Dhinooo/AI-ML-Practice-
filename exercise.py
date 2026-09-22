@@ -218,3 +218,50 @@ if accuracy >= 80 or model_deployed:
     print("Continue")
 else:
     print("Stop")
+
+
+for i in range(4):
+    print(i)
+
+for epoch in range(1, 6):
+    print("Training epoch:", epoch)
+
+# for loop with a list
+
+models = ["Linear Regression", "Decision Tree", "Random Forest"]
+
+for model in models:
+    print(model)
+
+for i in range(1, 6):
+    if i % 2 == 0:
+        print(i, "Even")
+    else:
+        print(i, "Odd")
+
+numbers = [2, 5, 8, 11]
+
+for number in numbers:
+    if number % 2 != 0:
+        print(number)
+
+
+scores = [80, 90, 70]
+total = 0
+
+for score in scores:
+    total = total + score
+
+average = total / 3
+print(average)
+
+predictions = [1, 0, 1, 1]
+actual = [1, 1, 1, 0]
+
+correct = 0
+
+for i in range(4):
+    if predictions[i] == actual[i]:
+        correct = correct + 1
+
+print(correct)
