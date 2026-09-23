@@ -265,3 +265,11 @@ for i in range(4):
         correct = correct + 1
 
 print(correct)
+
+
+scores = [50, 85, 40, 90]
+
+for score in scores:
+    if score < 60:
+        continue
+    print(score)
