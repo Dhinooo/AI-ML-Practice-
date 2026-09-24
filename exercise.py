@@ -273,3 +273,7 @@ for score in scores:
     if score < 60:
         continue
     print(score)
+
+for i in range(2):
+    for j in range(3):
+        print(i, j)
