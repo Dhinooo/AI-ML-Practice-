@@ -82,198 +82,201 @@
 
 
 x = 10
-y = 5.5
+# y = 5.5
 
-print(x + y)
-print(type(x + y))
-a = "10"
-b = "20"
+# print(x + y)
+# print(type(x + y))
+# a = "10"
+# b = "20"
 
-print(a + b)
+# print(a + b)
 
 
-a = 10
-b = "20"
+# a = 10
+# b = "20"
 
-print(str(a) + b)
+# print(str(a) + b)
 
 
-a = "10"
-b = "20"
+# a = "10"
+# b = "20"
 
-print(int(a) + int(b))
+# print(int(a) + int(b))
 
 
-is_student = True
+# is_student = True
 
-print(is_student)
-print(type(is_student))
+# print(is_student)
+# print(type(is_student))
 
 
-x = True
-y = 10
+# x = True
+# y = 10
 
-print(x + y)
+# print(x + y)
 
 
-x = False
-y = 10
+# x = False
+# y = 10
 
-print(x + y)
+# print(x + y)
 
 
-x = 10
-y = float(x)
+# x = 10
+# y = float(x)
 
-print(y)
-print(type(y))
+# print(y)
+# print(type(y))
 
-x = 10.5
-y = int(x)
+# x = 10.5
+# y = int(x)
 
-print(y)
-print(type(y))
+# print(y)
+# print(type(y))
 
-x = "10.5"
-y = float(x)
+# x = "10.5"
+# y = float(x)
 
-print(y)
-print(type(y))
+# print(y)
+# print(type(y))
 
 
-x = "10"
-y = 5
+# x = "10"
+# y = 5
 
-print(x + str(y))
+# print(x + str(y))
 
-a = 10
-b = 2.5
-c = "5"
+# a = 10
+# b = 2.5
+# c = "5"
 
-result = a + b + int(c)
+# result = a + b + int(c)
 
-print(result)
-print(type(result))
+# print(result)
+# print(type(result))
 
-a = 10
-b = 3
+# a = 10
+# b = 3
 
-print(a + b)
-print(a - b)
-print(a * b)
+# print(a + b)
+# print(a - b)
+# print(a * b)
 
-a = 10
-b = 3
+# a = 10
+# b = 3
 
-print(a / b)
+# print(a / b)
 
-a = 10
-b = 3
+# a = 10
+# b = 3
 
-print(a % b)
+# print(a % b)
 
-a = 10
-b = 3
+# a = 10
+# b = 3
 
-print(a // b)
+# print(a // b)
 
-a = 10
-b = 3
+# a = 10
+# b = 3
 
-result = a + b * 2
+# result = a + b * 2
 
-print(result)
+# print(result)
 
-correct = 87
-total = 100
+# correct = 87
+# total = 100
 
-accuracy = (correct / total) * 100
+# accuracy = (correct / total) * 100
 
-print(accuracy)
+# print(accuracy)
 
-accuracy = 95
+# accuracy = 95
 
-if accuracy >= 80:
-    print("Good")
-elif accuracy >= 90:
-    print("Excellent")
-else:
-    print("Needs improvement")
+# if accuracy >= 80:
+#     print("Good")
+# elif accuracy >= 90:
+#     print("Excellent")
+# else:
+#     print("Needs improvement")
 
-accuracy = 92
+# accuracy = 92
 
-if accuracy >= 90:
-    print("Excellent")
-elif accuracy >= 80:
-    print("Good")
-elif accuracy >= 70:
-    print("Average")
-else:
-    print("Poor")
+# if accuracy >= 90:
+#     print("Excellent")
+# elif accuracy >= 80:
+#     print("Good")
+# elif accuracy >= 70:
+#     print("Average")
+# else:
+#     print("Poor")
 
-accuracy = 65
-model_deployed = True
+# accuracy = 65
+# model_deployed = True
 
-if accuracy >= 80 or model_deployed:
-    print("Continue")
-else:
-    print("Stop")
+# if accuracy >= 80 or model_deployed:
+#     print("Continue")
+# else:
+#     print("Stop")
 
 
-for i in range(4):
-    print(i)
+# for i in range(4):
+#     print(i)
 
-for epoch in range(1, 6):
-    print("Training epoch:", epoch)
+# for epoch in range(1, 6):
+#     print("Training epoch:", epoch)
 
-# for loop with a list
+# # for loop with a list
 
-models = ["Linear Regression", "Decision Tree", "Random Forest"]
+# models = ["Linear Regression", "Decision Tree", "Random Forest"]
 
-for model in models:
-    print(model)
+# for model in models:
+#     print(model)
 
-for i in range(1, 6):
-    if i % 2 == 0:
-        print(i, "Even")
-    else:
-        print(i, "Odd")
+# for i in range(1, 6):
+#     if i % 2 == 0:
+#         print(i, "Even")
+#     else:
+#         print(i, "Odd")
 
-numbers = [2, 5, 8, 11]
+# numbers = [2, 5, 8, 11]
 
-for number in numbers:
-    if number % 2 != 0:
-        print(number)
+# for number in numbers:
+#     if number % 2 != 0:
+#         print(number)
 
 
-scores = [80, 90, 70]
-total = 0
+# scores = [80, 90, 70]
+# total = 0
 
-for score in scores:
-    total = total + score
+# for score in scores:
+#     total = total + score
 
-average = total / 3
-print(average)
+# average = total / 3
+# print(average)
 
-predictions = [1, 0, 1, 1]
-actual = [1, 1, 1, 0]
+# predictions = [1, 0, 1, 1]
+# actual = [1, 1, 1, 0]
 
-correct = 0
+# correct = 0
 
-for i in range(4):
-    if predictions[i] == actual[i]:
-        correct = correct + 1
+# for i in range(4):
+#     if predictions[i] == actual[i]:
+#         correct = correct + 1
 
-print(correct)
+# print(correct)
 
 
-scores = [50, 85, 40, 90]
+# scores = [50, 85, 40, 90]
 
-for score in scores:
-    if score < 60:
-        continue
-    print(score)
+# for score in scores:
+#     if score < 60:
+#         continue
+#     print(score)
 
-for i in range(2):
-    for j in range(3):
-        print(i, j)
+# for i in range(2):
+#     for j in range(3):
+#         print(i, j)
+
+
+imp
