@@ -13,3 +13,16 @@ joke = pyjokes.get_joke()
 
 print("Python joke of the day: ")
 print(joke)
+
+
+joke = pyjokes.get_joke()
+
+print("Python joke of the day: ")
+print(joke)
+
+# Fetch a random programming jokes
+
+joke = pyjokes.get_joke()
+
+print("Python joke of the day: ")
+print(joke)
