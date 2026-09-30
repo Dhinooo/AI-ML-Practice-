@@ -23,3 +23,13 @@ give_num = 24
 give_name = "25"
 give_name = int(give_name)
 print(give_num + give_name)
+
+give_num = 24
+give_name = "25"
+give_name = int(give_name)
+print(give_num + give_name)
+
+give_num = 24
+give_name = "25"
+give_name = int(give_name)
+print(give_num + give_name)
