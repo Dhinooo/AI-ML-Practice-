@@ -1,7 +1,7 @@
-name="dhina"   #string 
-age=25         #int 
-salary= 13000.00 # float 
-bata = False  #bool
+name = "dhina"  # string
+age = 25  # int
+salary = 13000.00  # float
+bata = False  # bool
 
 # print("User Name is :",name)
 # print("Your Age is :",age)
@@ -15,10 +15,11 @@ bata = False  #bool
 
 give_num = 24
 give_name = "25"
-give_name=int(give_name)
-print(give_num+give_name)
+give_name = int(give_name)
+print(give_num + give_name)
 
 
-
-
-
+give_num = 24
+give_name = "25"
+give_name = int(give_name)
+print(give_num + give_name)
